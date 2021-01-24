@@ -11,6 +11,16 @@ function About(props) {
           granted, all else follows.”
         </span>
         <span>− George Orwell, 1984</span>
+        <hr />
+        <p>
+          <a
+            href="https://jonghyunpark.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Dylan's Portfolio
+          </a>
+        </p>
       </div>
     </div>
   );

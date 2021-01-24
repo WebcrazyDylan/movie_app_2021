@@ -20,11 +20,18 @@
   font-weight: 300;
 }
 
-.about__container span:first-child {
+.about__container span:nth-child(odd) {
   font-size: 20px;
 }
 
-.about__container span:last-child {
+.about__container span:nth-child(even) {
   display: block;
   margin-top: 10px;
+}
+
+.about__container p {
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
 }
